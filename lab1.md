@@ -252,7 +252,7 @@ No deliverables.
 
 ### Task 2 [2 marks]
 
-Deliverables in folder task2:
+Deliverables in folder `task2`:
 
 - [ ] Modified `card7seg.sv`
 - [ ] Any `tb_*.sv` files you used to test your design
@@ -262,7 +262,7 @@ The toplevel module of your design must be named `card7seg` (recall that we are 
 
 ### Task 3 [7 marks]
 
-Deliverables in folder task3:
+Deliverables in folder `task3`:
 
 - [ ] Modified `card7seg.sv`
 - [ ] Modified `statemachine.sv`
@@ -275,7 +275,7 @@ The toplevel module of your design must be named `lab1`.
 
 ### Task 4 [1 mark]
 
-Deliverables:
+Deliverables in folder `task4`:
 
 - [ ] All source files required to implement and test your design
 
