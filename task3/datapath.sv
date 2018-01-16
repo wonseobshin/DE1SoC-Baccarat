@@ -13,5 +13,18 @@ module datapath(input slow_clock, input fast_clock, input resetb,
 //
 // Follow the block diagram in the Lab 1 handout closely as you write this code.
 
+
 endmodule
 
+module reg4(input slow_clock, input dealtcard, input load_signal, input resetb, output card);
+
+reg face; //card face value
+
+always@(posedge slow_clock or negedge resetb)
+begin
+	if(~resetb)
+		face = 0'b0;
+	else
+		face = dealtcard;
+end
+endmodule

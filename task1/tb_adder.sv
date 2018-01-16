@@ -5,7 +5,7 @@ module tb_adder();
     initial begin
         TB_SW = 0'b00000000;
         #10;
-        BOGUS = 0'b00010001;
+        TB_SW = 0'b00010001;
         #10;
         TB_SW = 0'b00100010;
         #10;
